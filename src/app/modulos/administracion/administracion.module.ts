@@ -10,8 +10,7 @@ import { CrearProductoComponent } from './productos/crear-producto/crear-product
 import { EditarProductoComponent } from './productos/editar-producto/editar-producto.component';
 import { EliminarProductoComponent } from './productos/eliminar-producto/eliminar-producto.component';
 import { BuscarProductoComponent } from './productos/buscar-producto/buscar-producto.component';
-import { AsignarPedidoComponent } from './pedidos/asignar-pedido/asignar-pedido.component';
-
+// import { AsignarPedidoComponent } from './pedidos/asignar-pedido/asignar-pedido.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +22,8 @@ import { AsignarPedidoComponent } from './pedidos/asignar-pedido/asignar-pedido.
     EditarProductoComponent,
     EliminarProductoComponent,
     BuscarProductoComponent,
-    AsignarPedidoComponent
+    // AsignarPedidoComponent,
   ],
-  imports: [
-    CommonModule,
-    AdministracionRoutingModule
-  ]
+  imports: [CommonModule, AdministracionRoutingModule],
 })
-export class AdministracionModule { }
+export class AdministracionModule {}
